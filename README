@@ -1,0 +1,17 @@
+original cape design taken from Casey Kuhns/Sparkfun - https://github.com/sparkfun/BeagleBone_Black_Proto_Cape
+
+Parts:
+
+U$2 - PI6C4511WE-ND - 8-SOIC PLL - $2.17
+U$3 - Navspark NS-T - GPS Receiver - $80
+U$4 - 24LC32A-I/SN-ND - 8SOIC I2C 32KBIT EEPROM - $0.41
+Cape connectors - 3x S1012EC-40-ND - 0.1" MALE 40POS - $0.56/ea
+Navspark socket - 
+	1x S7011-ND - 0.1" 13POS FEMALE - $1.06
+	1x S6100-ND - 0.1" 12POS FEMALE - $0.98
+
+Datasheets:
+
+U$2/PLL - http://www.pericom.com/assets/Datasheets/PI6C4511.pdf
+U$3/GPS - http://navspark.mybigcommerce.com/ns-t-precision-timing-mode-gps-receiver/
+U$4/EEPROM - http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf
