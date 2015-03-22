@@ -929,7 +929,6 @@ Standard 8.5x11 US Letter frame</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -960,7 +959,6 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="+3V4" gate="G$1" x="20.32" y="129.54"/>
 <instance part="P+1" gate="1" x="137.16" y="147.32"/>
 <instance part="P+2" gate="1" x="187.96" y="157.48"/>
-<instance part="GND10" gate="1" x="172.72" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -1078,11 +1076,6 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="63.5" y1="127" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="OE"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="165.1" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
